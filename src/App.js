@@ -65,12 +65,14 @@ class App extends React.Component {
   }
   render() {
     return (
+      
       <div className="App">
+      <h1>Task Helper</h1>
         <header>
           <form id="to-do-form" onSubmit={this.addItem}>
             <input
               type="text"
-              placeholder="Enter Text"
+              placeholder="  Enter Task..."
               value={this.state.currentItem.text}
               onChange={this.handleInput}
             />

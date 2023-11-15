@@ -25,6 +25,7 @@
     border: 0;
     color: #fff;
     font-size: 18px;
+    font-family: cursive;
 }
 .list p input:focus {
     outline: none;
